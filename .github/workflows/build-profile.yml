@@ -1,0 +1,99 @@
+name: Build profile
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: build-profile-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    if: |
+      startsWith(github.event.issue.title, '[job-agent] ') ||
+      startsWith(github.event.issue.title, '[job-agent-rebuild] ')
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Cache HuggingFace models
+        uses: actions/cache@v5
+        with:
+          path: ~/.cache/huggingface
+          key: hf-models-${{ hashFiles('requirements.txt') }}
+          restore-keys: hf-models-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Apply profile config from issue
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python3 -c "import os,sys; sys.stdout.write(os.environ['ISSUE_BODY'])" \
+            | python scripts/apply_profile_config.py
+
+      - name: Build offers
+        env:
+          FRANCE_TRAVAIL_CLIENT_ID: ${{ secrets.FRANCE_TRAVAIL_CLIENT_ID }}
+          FRANCE_TRAVAIL_CLIENT_SECRET: ${{ secrets.FRANCE_TRAVAIL_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          API_APPRENTISSAGE_KEY: ${{ secrets.API_APPRENTISSAGE_KEY }}
+        run: |
+          PROFILE_ID=$(python3 -c "import json; print(json.load(open('/tmp/job_agent_profile.json'))['profileId'])")
+          python scripts/build_offers.py --profile "$PROFILE_ID"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main
+          git add profiles/ docs/
+          if git diff --staged --quiet; then
+            echo "Nothing to commit."
+          else
+            PROFILE_ID=$(python3 -c "import json; print(json.load(open('/tmp/job_agent_profile.json'))['profileId'])")
+            git commit -m "feat: build profile ${PROFILE_ID}"
+            git push
+          fi
+
+      - name: Trigger Pages deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --repo ${{ github.repository }}
+
+      - name: Close issue — succès
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api -X POST \
+            "repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments" \
+            -f "body=✅ Profil mis à jour et offres générées."
+          gh api -X PATCH \
+            "repos/${{ github.repository }}/issues/${{ github.event.issue.number }}" \
+            -f "state=closed"
+
+      - name: Close issue — échec
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api -X POST \
+            "repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments" \
+            -f "body=❌ Build échoué. Voir les logs du workflow."
+          gh api -X PATCH \
+            "repos/${{ github.repository }}/issues/${{ github.event.issue.number }}" \
+            -f "state=closed"

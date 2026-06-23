@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Agent — offres scorées</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <h1>Job Agent</h1>
+      <div id="profile-switcher" hidden></div>
+      <button id="switch-profile-btn" class="ob-edit-btn" hidden title="Changer de profil ou en créer un nouveau">↩ Changer</button>
+      <button id="edit-profile-btn" class="ob-edit-btn" hidden title="Modifier le profil">✏ Modifier</button>
+      <button id="copy-link-btn" class="ob-edit-btn" hidden title="Copier le lien permanent">🔗 Lien</button>
+    </div>
+    <p id="meta">Chargement…</p>
+    <div id="dashboard" hidden></div>
+  </header>
+
+  <div id="add-overlay" hidden>
+    <div id="add-card">
+      <div class="dialog-header">
+        <button type="button" class="dialog-close" id="add-close" aria-label="Fermer">✕</button>
+        <h2>Ajouter une offre</h2>
+      </div>
+      <form id="add-form">
+        <div class="dialog-2col">
+          <div class="dialog-col">
+            <label><span><span class="req">*</span> Titre</span>
+              <input name="title" required placeholder="Ex : Assistante administrative…">
+            </label>
+            <label>Entreprise
+              <input name="company" placeholder="Ex : Mairie de Lille">
+            </label>
+            <label>Lieu
+              <input name="location" placeholder="Ex : Lille, Roubaix…">
+            </label>
+            <div class="ob-row">
+              <label>Contrat
+                <select name="contract_type">
+                  <option value="">—</option>
+                  <option value="Alternance" selected>Alternance</option>
+                  <option value="CDI">CDI</option>
+                  <option value="CDD">CDD</option>
+                  <option value="Stage">Stage</option>
+                  <option value="Intérim">Intérim</option>
+                </select>
+              </label>
+              <label>Trouvée sur
+                <select name="source">
+                  <option value="LinkedIn">LinkedIn</option>
+                  <option value="Indeed">Indeed</option>
+                  <option value="APEC">APEC</option>
+                  <option value="HelloWork">HelloWork</option>
+                  <option value="Site entreprise">Site entreprise</option>
+                  <option value="Autre">Autre</option>
+                </select>
+              </label>
+            </div>
+            <label><span><span class="req">*</span> Lien vers l'offre</span>
+              <input name="url" type="url" required placeholder="https://…">
+            </label>
+          </div>
+          <div class="dialog-col dialog-col-text">
+            <label>Description <span class="opt">(optionnel)</span>
+              <textarea name="snippet" placeholder="Colle ici un extrait de l'offre…"></textarea>
+            </label>
+          </div>
+        </div>
+      </form>
+      <div class="dialog-footer">
+        <button type="button" id="cancel-add" class="btn-cancel">Annuler</button>
+        <button type="submit" form="add-form" class="btn-primary">Ajouter l'offre</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="notes-overlay" hidden>
+    <div id="notes-card"></div>
+  </div>
+
+  <section class="controls">
+    <div class="ctrl-top">
+      <input id="filter" type="search" placeholder="Filtrer…" autofocus>
+      <div class="view-toggle">
+        <button class="view-toggle-btn active" id="view-table" title="Vue tableau">≡ Tableau</button>
+        <button class="view-toggle-btn" id="view-kanban" title="Vue Kanban">⊞ Kanban</button>
+      </div>
+      <button id="open-add" class="btn-add">+ Ajouter</button>
+    </div>
+    <div class="ctrl-bottom">
+      <label><input id="hideRead" type="checkbox"> Masquer lues</label>
+      <select id="filterStatus">
+        <option value="">Tous statuts</option>
+        <option value="__none__">Sans statut</option>
+        <option value="Postulée">Postulée</option>
+        <option value="Entretien">Entretien</option>
+        <option value="Relancée">Relancée</option>
+        <option value="Refusée">Refusée</option>
+      </select>
+      <a id="markAllRead" href="#">Tout lire</a>
+      <a id="exportCsv" href="#">Export CSV</a>
+      <a id="exportJson" href="#">Sauvegarder</a>
+      <a id="importJsonTrigger" href="#">Restaurer</a>
+      <input id="importJson" type="file" accept=".json" style="display:none">
+    </div>
+  </section>
+
+  <div id="kanban-wrapper" hidden></div>
+
+  <div id="table-wrapper">
+    <table id="offers">
+      <thead>
+        <tr>
+          <th data-sort="llm_rank" class="col-rank">Rang LLM</th>
+          <th data-sort="score">Score</th>
+          <th data-sort="title">Titre</th>
+          <th data-sort="company">Entreprise</th>
+          <th data-sort="location" class="col-location">Lieu</th>
+          <th data-sort="contract_type" class="col-contract">Contrat</th>
+          <th data-sort="rome_code" class="col-rome">ROME / Sém.</th>
+          <th data-sort="posted_days_ago" class="col-age">Publié</th>
+          <th>Lien</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <p id="empty" hidden>Aucune offre. Lance le workflow GitHub Action pour générer <code>offers.json</code>.</p>
+
+  <div id="onboarding-overlay" hidden>
+    <div id="onboarding-card"></div>
+  </div>
+
+  <script type="module" src="app.js?v=CACHE_BUST"></script>
+</body>
+</html>
