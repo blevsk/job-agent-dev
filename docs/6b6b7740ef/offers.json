@@ -9,7 +9,7 @@
         "location": "Lille"
       }
     ],
-    "scraped_at": "2026-06-26T12:34:16+00:00",
+    "scraped_at": "2026-06-26T13:36:52+00:00",
     "rerank_active": true,
     "semantic_active": true,
     "total": 21
@@ -28,7 +28,7 @@
       "rome_code": "M1884",
       "semantic_score": 0.6012077927589417,
       "llm_rank": 1,
-      "llm_reason": "Ingénieur Systèmes/Réseaux/Cybersécurité à Lille en CDI, alignement parfait avec expertise réseau et sécurité.",
+      "llm_reason": "CDI Lille, Ingénieur Systèmes Réseaux Cybersécurité, parfait alignement compétences et localisation.",
       "score": 20.2144935131073,
       "score_breakdown": {
         "keywords": 0.0,
@@ -52,7 +52,7 @@
       "rome_code": "M1802",
       "semantic_score": 0.6046783924102783,
       "llm_rank": 2,
-      "llm_reason": "Ingénieur réseaux CDI à Lille, intégration technique opérationnelle, très proche du profil recherché.",
+      "llm_reason": "CDI Lille, Ingénieur Réseaux, contexte opérationnel et intégration technique terrain alignés.",
       "score": 17.25614070892334,
       "score_breakdown": {
         "keywords": 0.0,
@@ -76,7 +76,7 @@
       "rome_code": "M1804",
       "semantic_score": 0.5706468224525452,
       "llm_rank": 3,
-      "llm_reason": "Ingénieur Telecom & Réseaux CDI à Ronchin (proche Lille), compétences réseau directement applicables.",
+      "llm_reason": "CDI Ronchin (proche Lille), Ingénieur Telecom Réseaux, bon match compétences réseau.",
       "score": 14.847761869430542,
       "score_breakdown": {
         "keywords": 0.0,
@@ -88,27 +88,27 @@
       }
     },
     {
-      "id": "3740018",
-      "title": "Ingénieur / Ingénieure validation réseaux de télécoms (H/F)",
+      "id": "3546464",
+      "title": "Ingénieur Telecom & Réseaux (H/F)",
       "company": null,
-      "location": "59 - Lambersart",
+      "location": "59 - Lille",
       "contract_type": "CDI",
       "salary": null,
-      "posted_days_ago": 13,
-      "snippet": "Chez Thales, nous sommes fiers de travailler ensemble pour imaginer des solutions innovantes qui contribuent à construire un avenir plus sûr, plus vert et plus inclusif. Un avenir de confiance. Mais ces technologies ne viennent pas de nulle part. L'intelligence humaine est le moteur derrière la technologie qui fait la renommée de Thales. Les projets que nous conduisons sont complexes et nos clien…",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/3740018",
+      "posted_days_ago": 20,
+      "snippet": "Description du poste : Société incontournable sur le marché du recrutement français, LTd est un Cabinet de Recrutement et une Agence de Travail Temporaire spécialisé dans les métiers de l'Ingénierie et des Entreprises. Le poste : Dans le cadre de projets d'aménagement urbain, de déploiement de réseaux (fibre optique, électricité, gaz, eau) ou de travaux publics, vous serez responsable de la détec…",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/3546464",
       "rome_code": "M1804",
-      "semantic_score": 0.5354968905448914,
-      "llm_rank": 5,
-      "llm_reason": "Validation réseaux télécom à Lambersart CDI, expertise réseau chez Thales, mais focus validation moins opérationnel.",
-      "score": 17.425962686538696,
+      "semantic_score": 0.5484466552734375,
+      "llm_rank": 4,
+      "llm_reason": "CDI Lille, Ingénieur Telecom Réseaux, déploiement réseau mais potentiel inférieur au rang 1.",
+      "score": 16.58135986328125,
       "score_breakdown": {
         "keywords": 0.0,
         "contract": 8.0,
         "rome": 0.0,
-        "location": 0.0,
-        "freshness": 3.0,
-        "semantic": 6.425962686538696
+        "location": 2.0,
+        "freshness": 0.0,
+        "semantic": 6.58135986328125
       }
     },
     {
@@ -123,8 +123,8 @@
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/1462350",
       "rome_code": "M1802",
       "semantic_score": 0.5113193988800049,
-      "llm_rank": 6,
-      "llm_reason": "Security Engineer Tech Lead à Villeneuve-d'Ascq CDI, cybersécurité alignée mais sans focus réseau explicite.",
+      "llm_rank": 5,
+      "llm_reason": "CDI Villeneuve-d'Ascq, Security Engineer Tech Lead, cybersécurité forte mais pas réseau pur.",
       "score": 14.135832786560059,
       "score_breakdown": {
         "keywords": 0.0,
@@ -133,6 +133,30 @@
         "location": 0.0,
         "freshness": 0.0,
         "semantic": 6.135832786560059
+      }
+    },
+    {
+      "id": "3740018",
+      "title": "Ingénieur / Ingénieure validation réseaux de télécoms (H/F)",
+      "company": null,
+      "location": "59 - Lambersart",
+      "contract_type": "CDI",
+      "salary": null,
+      "posted_days_ago": 14,
+      "snippet": "Chez Thales, nous sommes fiers de travailler ensemble pour imaginer des solutions innovantes qui contribuent à construire un avenir plus sûr, plus vert et plus inclusif. Un avenir de confiance. Mais ces technologies ne viennent pas de nulle part. L'intelligence humaine est le moteur derrière la technologie qui fait la renommée de Thales. Les projets que nous conduisons sont complexes et nos clien…",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/3740018",
+      "rome_code": "M1804",
+      "semantic_score": 0.5354968905448914,
+      "llm_rank": 6,
+      "llm_reason": "CDI Lambersart (proche Lille), Ingénieur validation réseaux télécom, spécialité différente.",
+      "score": 17.425962686538696,
+      "score_breakdown": {
+        "keywords": 0.0,
+        "contract": 8.0,
+        "rome": 0.0,
+        "location": 0.0,
+        "freshness": 3.0,
+        "semantic": 6.425962686538696
       }
     },
     {
@@ -148,7 +172,7 @@
       "rome_code": "M1802",
       "semantic_score": 0.4957357943058014,
       "llm_rank": 7,
-      "llm_reason": "Ingénieur intégration système à Lambersart CDI chez Thales, systèmes sans spécialisation réseau primaire.",
+      "llm_reason": "CDI Lambersart, Ingénieur intégration système, moins focalisé réseau que postes antérieurs.",
       "score": 16.948829531669617,
       "score_breakdown": {
         "keywords": 0.0,
@@ -172,7 +196,7 @@
       "rome_code": "M1802",
       "semantic_score": 0.5312356948852539,
       "llm_rank": 8,
-      "llm_reason": "Ingénieur Système à Lezennes CDI, focus AIX/Linux/MCO mais pas de dimension réseau explicite.",
+      "llm_reason": "CDI Lezennes, Ingénieur Système AIX/Linux, administration systèmes sans expertise réseau.",
       "score": 17.374828338623047,
       "score_breakdown": {
         "keywords": 0.0,
@@ -181,30 +205,6 @@
         "location": 0.0,
         "freshness": 3.0,
         "semantic": 6.374828338623047
-      }
-    },
-    {
-      "id": "1771097",
-      "title": "INGÉNIEUR SYSTÈMES (F/H) (H/F)",
-      "company": null,
-      "location": "59 - Lille",
-      "contract_type": "CDI",
-      "salary": null,
-      "posted_days_ago": 65,
-      "snippet": "descriptif du posteEn tant qu'Ingénieur Systèmes, vos missions seront le suivantes : Maintien en condition opérationnelle de la Production :- Supervision de l'infrastructure et proactivité afin de limiter les impacts et les incidents- Mise en place de flux sur ordonnanceur- Résolution d'incidents- scripting (powershell , bat , shell ..)Maintenance et développement des infrastructures système :- M…",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/1771097",
-      "rome_code": "M1802",
-      "semantic_score": 0.4642292857170105,
-      "llm_rank": 9,
-      "llm_reason": "Ingénieur Systèmes à Lille CDI, MCO infrastructure mais offre très ancienne (65 jours) sans expertise réseau.",
-      "score": 15.570751428604126,
-      "score_breakdown": {
-        "keywords": 0.0,
-        "contract": 8.0,
-        "rome": 0.0,
-        "location": 2.0,
-        "freshness": 0.0,
-        "semantic": 5.570751428604126
       }
     },
     {
@@ -219,8 +219,8 @@
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/209BMVY",
       "rome_code": "M1802",
       "semantic_score": 0.5147640109062195,
-      "llm_rank": 10,
-      "llm_reason": "Ingénieur z/OS mainframe à Lille CDI, spécialisation mainframe trop éloignée du profil réseau recherché.",
+      "llm_rank": 9,
+      "llm_reason": "CDI Lille, Ingénieur z/OS mainframe, domaine technique très éloigné du profil réseau.",
       "score": 16.177168130874634,
       "score_breakdown": {
         "keywords": 0.0,
@@ -232,27 +232,27 @@
       }
     },
     {
-      "id": "3231277",
-      "title": "Ingénieur système mainframe H/F",
-      "company": "VERSPIEREN",
-      "location": "59 - Wasquehal",
+      "id": "1771097",
+      "title": "INGÉNIEUR SYSTÈMES (F/H) (H/F)",
+      "company": null,
+      "location": "59 - Lille",
       "contract_type": "CDI",
       "salary": null,
-      "posted_days_ago": 26,
-      "snippet": "Mieux nous connaître Verspieren recrute des talents de tous horizons pour accompagner sa croissance. En tant qu'intermédiaire, Verspieren s'engage aux côtés de ses clients pour les conseiller, construire des programmes d'assurance sur mesure et leur permettre d'entreprendre en toute confiance. Notre raison d'être est d'apporter à tous des solutions durables pour protéger et faire grandir ce qui a…",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/3231277",
+      "posted_days_ago": 65,
+      "snippet": "descriptif du posteEn tant qu'Ingénieur Systèmes, vos missions seront le suivantes : Maintien en condition opérationnelle de la Production :- Supervision de l'infrastructure et proactivité afin de limiter les impacts et les incidents- Mise en place de flux sur ordonnanceur- Résolution d'incidents- scripting (powershell , bat , shell ..)Maintenance et développement des infrastructures système :- M…",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/1771097",
       "rome_code": "M1802",
-      "semantic_score": 0.5414668917655945,
-      "llm_rank": 11,
-      "llm_reason": "Ingénieur système mainframe à Wasquehal CDI, expertise mainframe incompatible avec aspiration réseau.",
-      "score": 14.497602701187134,
+      "semantic_score": 0.4642292857170105,
+      "llm_rank": 10,
+      "llm_reason": "CDI Lille, Ingénieur Systèmes, MCO production mais peu spécialisé réseau, très ancien.",
+      "score": 15.570751428604126,
       "score_breakdown": {
         "keywords": 0.0,
         "contract": 8.0,
         "rome": 0.0,
-        "location": 0.0,
+        "location": 2.0,
         "freshness": 0.0,
-        "semantic": 6.497602701187134
+        "semantic": 5.570751428604126
       }
     },
     {
@@ -267,8 +267,8 @@
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/3984847",
       "rome_code": "H1206",
       "semantic_score": 0.5879665613174438,
-      "llm_rank": 12,
-      "llm_reason": "Développeur/Admin Système/Réseaux à Douai CDI, profil hybride industriel éloigné de l'expertise réseau pure.",
+      "llm_rank": 11,
+      "llm_reason": "CDI Douai, Développeur Administrateur Systèmes, profil hybride industriel non ciblé.",
       "score": 22.055598735809326,
       "score_breakdown": {
         "keywords": 4.0,
@@ -277,6 +277,30 @@
         "location": 0.0,
         "freshness": 3.0,
         "semantic": 7.055598735809326
+      }
+    },
+    {
+      "id": "3231277",
+      "title": "Ingénieur système mainframe H/F",
+      "company": "VERSPIEREN",
+      "location": "59 - Wasquehal",
+      "contract_type": "CDI",
+      "salary": null,
+      "posted_days_ago": 26,
+      "snippet": "Mieux nous connaître Verspieren recrute des talents de tous horizons pour accompagner sa croissance. En tant qu'intermédiaire, Verspieren s'engage aux côtés de ses clients pour les conseiller, construire des programmes d'assurance sur mesure et leur permettre d'entreprendre en toute confiance. Notre raison d'être est d'apporter à tous des solutions durables pour protéger et faire grandir ce qui a…",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/3231277",
+      "rome_code": "M1802",
+      "semantic_score": 0.5414668917655945,
+      "llm_rank": 12,
+      "llm_reason": "CDI Wasquehal, Ingénieur mainframe, spécialité mainframe sans lien réseau.",
+      "score": 14.497602701187134,
+      "score_breakdown": {
+        "keywords": 0.0,
+        "contract": 8.0,
+        "rome": 0.0,
+        "location": 0.0,
+        "freshness": 0.0,
+        "semantic": 6.497602701187134
       }
     },
     {
@@ -292,7 +316,7 @@
       "rome_code": "M1802",
       "semantic_score": 0.5182380080223083,
       "llm_rank": 13,
-      "llm_reason": "Ingénieur Poste de travail à Lille CDI, focus administratif sans dimension infrastructure/réseau stratégique.",
+      "llm_reason": "CDI Lille, Ingénieur Poste de Travail, expertise desktop sans pertinence réseau.",
       "score": 19.2188560962677,
       "score_breakdown": {
         "keywords": 0.0,
@@ -316,7 +340,7 @@
       "rome_code": "F1111",
       "semantic_score": 0.4745202958583832,
       "llm_rank": 14,
-      "llm_reason": "Responsable projet infrastructures VRD à Lille CDI, réseaux physiques/territoires sans expertise IT/cybersécurité.",
+      "llm_reason": "CDI Lille, Responsable Projet Infrastructures VRD, génie civil non informatique.",
       "score": 18.694243550300598,
       "score_breakdown": {
         "keywords": 0.0,
@@ -340,7 +364,7 @@
       "rome_code": "M1841",
       "semantic_score": 0.4821621775627136,
       "llm_rank": 15,
-      "llm_reason": "Ingénieur Réseaux VRD à Lille CDI, spécialisation hydraulique/infrastructure civile, hors domaine IT.",
+      "llm_reason": "CDI Lille, Ingénieur Réseaux VRD, infrastructure hydraulique sans lien IT.",
       "score": 15.785946130752563,
       "score_breakdown": {
         "keywords": 0.0,
@@ -364,7 +388,7 @@
       "rome_code": "M1841",
       "semantic_score": 0.5459402799606323,
       "llm_rank": 16,
-      "llm_reason": "Chef projet réseaux gaz/biométhane à Lille CDI, domaine énergétique sans lien avec infrastructure IT.",
+      "llm_reason": "CDI Lille, Chef Projet Réseaux Gaz Biométhane, secteur énergie éloigné.",
       "score": 16.551283359527588,
       "score_breakdown": {
         "keywords": 0.0,
@@ -373,30 +397,6 @@
         "location": 2.0,
         "freshness": 0.0,
         "semantic": 6.551283359527588
-      }
-    },
-    {
-      "id": "3546464",
-      "title": "Ingénieur Telecom & Réseaux (H/F)",
-      "company": null,
-      "location": "59 - Lille",
-      "contract_type": "CDI",
-      "salary": null,
-      "posted_days_ago": 20,
-      "snippet": "Description du poste : Société incontournable sur le marché du recrutement français, LTd est un Cabinet de Recrutement et une Agence de Travail Temporaire spécialisé dans les métiers de l'Ingénierie et des Entreprises. Le poste : Dans le cadre de projets d'aménagement urbain, de déploiement de réseaux (fibre optique, électricité, gaz, eau) ou de travaux publics, vous serez responsable de la détec…",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/3546464",
-      "rome_code": "M1804",
-      "semantic_score": 0.5484466552734375,
-      "llm_rank": 17,
-      "llm_reason": "Géomètre détection réseaux à Lille CDI, topographie/VRD sans compétences système/cybersécurité IT.",
-      "score": 16.58135986328125,
-      "score_breakdown": {
-        "keywords": 0.0,
-        "contract": 8.0,
-        "rome": 0.0,
-        "location": 2.0,
-        "freshness": 0.0,
-        "semantic": 6.58135986328125
       }
     },
     {
@@ -411,8 +411,8 @@
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/4007757",
       "rome_code": "M1802",
       "semantic_score": 0.5049887299537659,
-      "llm_rank": 18,
-      "llm_reason": "Ingénieur process équipements remplissage à Lille CDI, secteur manufacturier incompatible avec réseau IT.",
+      "llm_rank": 17,
+      "llm_reason": "CDI Lille, Ingénieur Process Équipements, domaine manufacturing sans pertinence.",
       "score": 19.05986475944519,
       "score_breakdown": {
         "keywords": 0.0,
@@ -421,54 +421,6 @@
         "location": 2.0,
         "freshness": 3.0,
         "semantic": 6.05986475944519
-      }
-    },
-    {
-      "id": "3491746",
-      "title": "Ingénieur méthode industriel  (H/F)",
-      "company": null,
-      "location": "59 - Lille",
-      "contract_type": "CDI",
-      "salary": null,
-      "posted_days_ago": 21,
-      "snippet": "L'industrie européenne se transforme. Les capitaux sont là, les projets aussi. Mais sur le terrain, il manque l'essentiel : les compétences pour faire tourner les lignes. C'est pour répondre à ce contexte que Kali Group existe. Nous sommes un cabinet de conseil spécialisé à 100% dans le manufacturing opérationnel. De l'industrialisation à la modernisation, nous résolvons les défis que la complexi…",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/3491746",
-      "rome_code": "M1802",
-      "semantic_score": 0.31210461258888245,
-      "llm_rank": 19,
-      "llm_reason": "Ingénieur méthode industriel à Lille CDI, manufacturing/production éloigné des compétences infrastructure.",
-      "score": 13.74525535106659,
-      "score_breakdown": {
-        "keywords": 0.0,
-        "contract": 8.0,
-        "rome": 0.0,
-        "location": 2.0,
-        "freshness": 0.0,
-        "semantic": 3.7452553510665894
-      }
-    },
-    {
-      "id": "3955491",
-      "title": "Ingénieur Soudage - IWE (H/F)",
-      "company": null,
-      "location": "59 - Lille",
-      "contract_type": "CDI",
-      "salary": null,
-      "posted_days_ago": 8,
-      "snippet": "Kali Group est une société de conseil née d'un constat simple : le modèle actuel ne convient ni aux industriels, ni aux consultants. Aujourd'hui, le seul gagnant ; c'est le cabinet de conseil. Notre mission - Concilier les intérêts de tout le monde en créant un nouveau standard qui vous donne la liberté de construire votre plan de carrière. Comment - En relevant les challenges techniques, organis…",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/3955491",
-      "rome_code": "M1802",
-      "semantic_score": 0.40325355529785156,
-      "llm_rank": 20,
-      "llm_reason": "Ingénieur Soudage IWE à Lille CDI, spécialisation soudure totalement hors périmètre professionnel.",
-      "score": 17.83904266357422,
-      "score_breakdown": {
-        "keywords": 0.0,
-        "contract": 8.0,
-        "rome": 0.0,
-        "location": 2.0,
-        "freshness": 3.0,
-        "semantic": 4.839042663574219
       }
     },
     {
@@ -483,8 +435,8 @@
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/4262619",
       "rome_code": "F1623",
       "semantic_score": 0.502875030040741,
-      "llm_rank": 21,
-      "llm_reason": "Ingénieur commercial IT-Télécom à Villeneuve-d'Ascq CDI, rôle commercial non technique, sans encadrement.",
+      "llm_rank": 18,
+      "llm_reason": "CDI Villeneuve-d'Ascq, Ingénieur Commercial IT, rôle commercial non technique.",
       "score": 17.03450036048889,
       "score_breakdown": {
         "keywords": 0.0,
@@ -507,8 +459,8 @@
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/3724936",
       "rome_code": "M1841",
       "semantic_score": 0.58880615234375,
-      "llm_rank": null,
-      "llm_reason": null,
+      "llm_rank": 19,
+      "llm_reason": "CDI Lille, Géomètre Détection Réseaux, profil topographie sans expertise IT.",
       "score": 17.065673828125,
       "score_breakdown": {
         "keywords": 0.0,
@@ -517,6 +469,54 @@
         "location": 2.0,
         "freshness": 0.0,
         "semantic": 7.065673828125
+      }
+    },
+    {
+      "id": "3491746",
+      "title": "Ingénieur méthode industriel  (H/F)",
+      "company": null,
+      "location": "59 - Lille",
+      "contract_type": "CDI",
+      "salary": null,
+      "posted_days_ago": 21,
+      "snippet": "L'industrie européenne se transforme. Les capitaux sont là, les projets aussi. Mais sur le terrain, il manque l'essentiel : les compétences pour faire tourner les lignes. C'est pour répondre à ce contexte que Kali Group existe. Nous sommes un cabinet de conseil spécialisé à 100% dans le manufacturing opérationnel. De l'industrialisation à la modernisation, nous résolvons les défis que la complexi…",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/3491746",
+      "rome_code": "M1802",
+      "semantic_score": 0.31210461258888245,
+      "llm_rank": 20,
+      "llm_reason": "CDI Lille, Ingénieur Méthode Industriel, manufacturing sans rapport réseau.",
+      "score": 13.74525535106659,
+      "score_breakdown": {
+        "keywords": 0.0,
+        "contract": 8.0,
+        "rome": 0.0,
+        "location": 2.0,
+        "freshness": 0.0,
+        "semantic": 3.7452553510665894
+      }
+    },
+    {
+      "id": "3955491",
+      "title": "Ingénieur Soudage - IWE (H/F)",
+      "company": null,
+      "location": "59 - Lille",
+      "contract_type": "CDI",
+      "salary": null,
+      "posted_days_ago": 8,
+      "snippet": "Kali Group est une société de conseil née d'un constat simple : le modèle actuel ne convient ni aux industriels, ni aux consultants. Aujourd'hui, le seul gagnant ; c'est le cabinet de conseil. Notre mission - Concilier les intérêts de tout le monde en créant un nouveau standard qui vous donne la liberté de construire votre plan de carrière. Comment - En relevant les challenges techniques, organis…",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/3955491",
+      "rome_code": "M1802",
+      "semantic_score": 0.40325355529785156,
+      "llm_rank": 21,
+      "llm_reason": "CDI Lille, Ingénieur Soudage IWE, métallurgie sans pertinence informatique.",
+      "score": 17.83904266357422,
+      "score_breakdown": {
+        "keywords": 0.0,
+        "contract": 8.0,
+        "rome": 0.0,
+        "location": 2.0,
+        "freshness": 3.0,
+        "semantic": 4.839042663574219
       }
     }
   ]
