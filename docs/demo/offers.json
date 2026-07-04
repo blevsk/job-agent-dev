@@ -21,7 +21,7 @@
         "location": "Lille"
       }
     ],
-    "scraped_at": "2026-07-04T11:08:43+00:00",
+    "scraped_at": "2026-07-04T11:15:10+00:00",
     "rerank_active": false,
     "semantic_active": true,
     "total": 178
@@ -322,7 +322,7 @@
       "location": "59000 Lille",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 3,
+      "posted_days_ago": 4,
       "snippet": "Vous intégrez le centre de formation IDMN à un rythme de : 1 jour d'école par semaine le reste au restaurant. Vous préparez soit un diplome d'employé de commerce ou assistant manager, technico commercial,... Au coeur du centre commercial lillenium, notre restaurant recherche des employés (es) polyvalents(es). Vous êtes dynamique, ouvert, réactif, avez envie de missions variées et voulez connaître…",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/210MVYM",
       "rome_code": "G1603",
@@ -2074,7 +2074,7 @@
       "location": "59320 Englos",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 1,
+      "posted_days_ago": 2,
       "snippet": "Mission En rejoignant l'un de nos restaurants, tu seras formé(e) sur un poste d'Equipier(ère) Polyvalent(e). Et surtout, tu ne seras jamais seul(e) : tu intègreras une équipe soudée qui t'accompagnera au quotidien pour te faire progresser, répondra à tes questions et te fera progresser chaque jour. Chez nous, une journée ne ressemble jamais à une autre : on gère, on s'adapte, on apprend. et on pa…",
       "url": "https://burgerking.career-portal.io/jobs/69c3f4b48a120a92bf0f2514?utm_source=francetravail&utm_medium=TargetingSourcing&utm_campaign=Burgerking",
       "rome_code": "G1603",
