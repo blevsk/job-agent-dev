@@ -21,7 +21,7 @@
         "location": "Lille"
       }
     ],
-    "scraped_at": "2026-07-10T13:19:56+00:00",
+    "scraped_at": "2026-07-10T13:31:43+00:00",
     "rerank_active": false,
     "semantic_active": true,
     "total": 176
@@ -1498,7 +1498,7 @@
       "location": "59139 Wattignies",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 6,
+      "posted_days_ago": 7,
       "snippet": "Pionnière de la bio, Biocoop est née il y a 40 ans de l'initiative de producteurs et de consommateurs qui se sont réunis, pour consommer mieux, autrement. Ensemble tout est possible : c'est à cette idée originelle que Biocoop est, depuis, resté fidèle. La Bio selon Biocoop c'est consommer mieux ensemble grâce à : - De bons produits, qui fondent notre fierté et la confiance de nos clients. - Des m…",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/210SGHX",
       "rome_code": "D1507",
@@ -3466,7 +3466,7 @@
       "location": "59 - Lille",
       "contract_type": "CDI",
       "salary": null,
-      "posted_days_ago": 9,
+      "posted_days_ago": 10,
       "snippet": "Description du poste : En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise Sopra Steria recherche actuellement des profils : Description de l'entreprise Description de l'entreprise Sopra S…",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/4401209",
       "rome_code": "M1805",
