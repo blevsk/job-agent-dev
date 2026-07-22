@@ -9,7 +9,7 @@
         "location": "Lille"
       }
     ],
-    "scraped_at": "2026-07-22T07:39:16+00:00",
+    "scraped_at": "2026-07-22T08:38:11+00:00",
     "rerank_active": false,
     "semantic_active": true,
     "total": 15
@@ -232,30 +232,6 @@
       }
     },
     {
-      "id": "4635546",
-      "title": "Ingénieur système et sécurité (h/f)",
-      "company": null,
-      "location": "59 - Lille",
-      "contract_type": "CDI",
-      "salary": null,
-      "posted_days_ago": 14,
-      "snippet": "Lieu : Lille, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4 milliards d'e…",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/4635546",
-      "rome_code": "M1884",
-      "semantic_score": 0.4623582065105438,
-      "llm_rank": null,
-      "llm_reason": null,
-      "score": 18.548298478126526,
-      "score_breakdown": {
-        "keywords": 0.0,
-        "contract": 8.0,
-        "rome": 0.0,
-        "location": 2.0,
-        "freshness": 3.0,
-        "semantic": 5.548298478126526
-      }
-    },
-    {
       "id": "4934474",
       "title": "Ingénieur intégration système (H/F)",
       "company": "HUMANIS PARTNERS",
@@ -349,6 +325,30 @@
         "location": 2.0,
         "freshness": 0.0,
         "semantic": 6.05986475944519
+      }
+    },
+    {
+      "id": "4635546",
+      "title": "Ingénieur système et sécurité (h/f)",
+      "company": null,
+      "location": "59 - Lille",
+      "contract_type": "CDI",
+      "salary": null,
+      "posted_days_ago": 15,
+      "snippet": "Lieu : Lille, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4 milliards d'e…",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/4635546",
+      "rome_code": "M1884",
+      "semantic_score": 0.4623582065105438,
+      "llm_rank": null,
+      "llm_reason": null,
+      "score": 15.548298478126526,
+      "score_breakdown": {
+        "keywords": 0.0,
+        "contract": 8.0,
+        "rome": 0.0,
+        "location": 2.0,
+        "freshness": 0.0,
+        "semantic": 5.548298478126526
       }
     },
     {
