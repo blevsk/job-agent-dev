@@ -21,7 +21,7 @@
         "location": "Lille"
       }
     ],
-    "scraped_at": "2026-07-23T07:37:34+00:00",
+    "scraped_at": "2026-07-23T08:40:12+00:00",
     "rerank_active": false,
     "semantic_active": true,
     "total": 175
@@ -436,30 +436,6 @@
       }
     },
     {
-      "id": "lba_210XJRX",
-      "title": "CUISINIER (H/F)",
-      "company": "LE MALT",
-      "location": "59000 Lille",
-      "contract_type": "Alternance",
-      "salary": null,
-      "posted_days_ago": 14,
-      "snippet": "Au sein d'un estaminet traditionnel vous préparez un CAP en 1 ou 2 ans selon votre profil. Vous contribuez à la bonne réalisations des entrées, plats et desserts de la carte. Vous conjuguez semaine entreprise et centre de formation. Vous participez au bon entretien du matériel et locaux.",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/210XJRX",
-      "rome_code": "G1609",
-      "semantic_score": 0.22072802484035492,
-      "llm_rank": null,
-      "llm_reason": null,
-      "score": 15.648736298084259,
-      "score_breakdown": {
-        "keywords": 0.0,
-        "contract": 8.0,
-        "rome": 0.0,
-        "location": 2.0,
-        "freshness": 3.0,
-        "semantic": 2.648736298084259
-      }
-    },
-    {
       "id": "lba_4979270",
       "title": "Chargé de recrutement et d'accompagnement F/H",
       "company": "ACTUAL TALENT",
@@ -481,54 +457,6 @@
         "location": 2.0,
         "freshness": 3.0,
         "semantic": 2.372749149799347
-      }
-    },
-    {
-      "id": "lba_4688381",
-      "title": "Alternance - Responsable affaires réglementaires (H/F)",
-      "company": null,
-      "location": "59000 Lille",
-      "contract_type": "Alternance",
-      "salary": null,
-      "posted_days_ago": 14,
-      "snippet": "Au sein du Groupe Decathlon, les périmètres Sports &amp; Value Chain rassemblent les métiers du design, de la conception et de l'industrialisation de l'offre Produits du Groupe ainsi que les domaines Sourcing / Manufacturing / Supply Chain. L'organisation repose sur des entités Sports qui développent une offre intégrée, basée sur nos propres marques ainsi que des partenariats avec d'autres marque…",
-      "url": "https://www.directemploi.com/candidatOffre/55594507?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi",
-      "rome_code": "H1507",
-      "semantic_score": 0.19736886024475098,
-      "llm_rank": null,
-      "llm_reason": null,
-      "score": 15.368426322937012,
-      "score_breakdown": {
-        "keywords": 0.0,
-        "contract": 8.0,
-        "rome": 0.0,
-        "location": 2.0,
-        "freshness": 3.0,
-        "semantic": 2.3684263229370117
-      }
-    },
-    {
-      "id": "lba_4688424",
-      "title": "Manager Logistique alternance 2 ans (H/F)",
-      "company": null,
-      "location": "59840 Lompret",
-      "contract_type": "Alternance",
-      "salary": null,
-      "posted_days_ago": 14,
-      "snippet": "Marre de passer tes journées devant un ordinateur ?Tu rêves d'une alternance où tes missions seront consacrées à développer une équipe et à relever des défis concrets sur le terrain ?Chez Decathlon, devenir apprenti-e Manager Logistique, c'est exactement ça !Ta mission est simple : assurer la disponibilité des produits Decathlon dans notre réseau logistique.Que ce soit en livrant les magasins ou…",
-      "url": "https://www.directemploi.com/candidatOffre/55594502?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi",
-      "rome_code": "N1301",
-      "semantic_score": 0.3562595248222351,
-      "llm_rank": null,
-      "llm_reason": null,
-      "score": 15.275114297866821,
-      "score_breakdown": {
-        "keywords": 0.0,
-        "contract": 8.0,
-        "rome": 0.0,
-        "location": 0.0,
-        "freshness": 3.0,
-        "semantic": 4.275114297866821
       }
     },
     {
@@ -1114,7 +1042,7 @@
       "location": "59 - Villeneuve-d'Ascq",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 12,
+      "posted_days_ago": 13,
       "snippet": "Tu es curieux, rigoureux, passionné par le sport, et tu veux contribuer à des réflexions stratégiques à l'échelle internationale ? L'équipe Market Intelligence de Decathlon recherche sa ou son futur.e stagiaire / alternant.e. Notre équipe, rattachée à la direction Stategy & Operations, aide les leaders de Decathlon à mieux comprendre les marchés dans lesquels nous opérons : tendances macroéconomi…",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/4788390",
       "rome_code": "M1824",
@@ -1684,6 +1612,30 @@
       }
     },
     {
+      "id": "lba_210XJRX",
+      "title": "CUISINIER (H/F)",
+      "company": "LE MALT",
+      "location": "59000 Lille",
+      "contract_type": "Alternance",
+      "salary": null,
+      "posted_days_ago": 15,
+      "snippet": "Au sein d'un estaminet traditionnel vous préparez un CAP en 1 ou 2 ans selon votre profil. Vous contribuez à la bonne réalisations des entrées, plats et desserts de la carte. Vous conjuguez semaine entreprise et centre de formation. Vous participez au bon entretien du matériel et locaux.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/210XJRX",
+      "rome_code": "G1609",
+      "semantic_score": 0.22072802484035492,
+      "llm_rank": null,
+      "llm_reason": null,
+      "score": 12.648736298084259,
+      "score_breakdown": {
+        "keywords": 0.0,
+        "contract": 8.0,
+        "rome": 0.0,
+        "location": 2.0,
+        "freshness": 0.0,
+        "semantic": 2.648736298084259
+      }
+    },
+    {
       "id": "lba_3744254",
       "title": "Contrôleur de gestion en alternance F/H",
       "company": null,
@@ -1852,6 +1804,30 @@
       }
     },
     {
+      "id": "lba_4688381",
+      "title": "Alternance - Responsable affaires réglementaires (H/F)",
+      "company": null,
+      "location": "59000 Lille",
+      "contract_type": "Alternance",
+      "salary": null,
+      "posted_days_ago": 15,
+      "snippet": "Au sein du Groupe Decathlon, les périmètres Sports &amp; Value Chain rassemblent les métiers du design, de la conception et de l'industrialisation de l'offre Produits du Groupe ainsi que les domaines Sourcing / Manufacturing / Supply Chain. L'organisation repose sur des entités Sports qui développent une offre intégrée, basée sur nos propres marques ainsi que des partenariats avec d'autres marque…",
+      "url": "https://www.directemploi.com/candidatOffre/55594507?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi",
+      "rome_code": "H1507",
+      "semantic_score": 0.19736886024475098,
+      "llm_rank": null,
+      "llm_reason": null,
+      "score": 12.368426322937012,
+      "score_breakdown": {
+        "keywords": 0.0,
+        "contract": 8.0,
+        "rome": 0.0,
+        "location": 2.0,
+        "freshness": 0.0,
+        "semantic": 2.3684263229370117
+      }
+    },
+    {
       "id": "lba_3613860",
       "title": "SERVEUR OU SERVEUSE - ALTERNANCE - H/F",
       "company": "IL RISTORANTE",
@@ -1873,6 +1849,30 @@
         "location": 2.0,
         "freshness": 0.0,
         "semantic": 2.3017072677612305
+      }
+    },
+    {
+      "id": "lba_4688424",
+      "title": "Manager Logistique alternance 2 ans (H/F)",
+      "company": null,
+      "location": "59840 Lompret",
+      "contract_type": "Alternance",
+      "salary": null,
+      "posted_days_ago": 15,
+      "snippet": "Marre de passer tes journées devant un ordinateur ?Tu rêves d'une alternance où tes missions seront consacrées à développer une équipe et à relever des défis concrets sur le terrain ?Chez Decathlon, devenir apprenti-e Manager Logistique, c'est exactement ça !Ta mission est simple : assurer la disponibilité des produits Decathlon dans notre réseau logistique.Que ce soit en livrant les magasins ou…",
+      "url": "https://www.directemploi.com/candidatOffre/55594502?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi",
+      "rome_code": "N1301",
+      "semantic_score": 0.3562595248222351,
+      "llm_rank": null,
+      "llm_reason": null,
+      "score": 12.275114297866821,
+      "score_breakdown": {
+        "keywords": 0.0,
+        "contract": 8.0,
+        "rome": 0.0,
+        "location": 0.0,
+        "freshness": 0.0,
+        "semantic": 4.275114297866821
       }
     },
     {
@@ -3586,7 +3586,7 @@
       "location": "59155 Faches-Thumesnil",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 35,
+      "posted_days_ago": 36,
       "snippet": "Nous sommes. Auchan Retail France, une entreprise de distribution de plus de collaborateurs au service de millions de clients chaque année. Ce que nous voulons, c'est aider nos clients à bien manger et vivre mieux, tout en préservant la planète. Que l'on soit en entrepôt, en magasin ou sur des fonctions support, notre point commun à tous, c'est de faire en sorte que nos clients aient plaisir à fa…",
       "url": "https://www.directemploi.com/candidatOffre/55304139?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi",
       "rome_code": "D1102",
