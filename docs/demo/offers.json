@@ -21,10 +21,10 @@
         "location": "Lille"
       }
     ],
-    "scraped_at": "2026-08-05T07:45:06+00:00",
+    "scraped_at": "2026-08-05T08:46:15+00:00",
     "rerank_active": false,
     "semantic_active": true,
-    "total": 171
+    "total": 172
   },
   "offers": [
     {
@@ -706,7 +706,7 @@
       "location": "4 RUE PARMENTIER 59800 LILLE",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 7,
+      "posted_days_ago": 8,
       "snippet": "Selon sa formation, enseigne et encadre des activités sportives et physiques dans une ou plusieurs disciplines, en fonction des attentes de son public (loisirs, initiation, compétition). Veille à la sécurité des personnes et au respect du règlement Selon la taille du club, peut participer à la gestion de la structure, au développement de l'activité, à l'organisation d'événements, à la gestion de…",
       "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a6863f68bbc3358a67a610f/educateur-educatrice-d-activités-physiques",
       "rome_code": "G1204",
@@ -1978,7 +1978,7 @@
       "location": "59000 Lille",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 27,
+      "posted_days_ago": 28,
       "snippet": "Au sein du Groupe Decathlon, les périmètres Sports &amp; Value Chain rassemblent les métiers du design, de la conception et de l'industrialisation de l'offre Produits du Groupe ainsi que les domaines Sourcing / Manufacturing / Supply Chain. L'organisation repose sur des entités Sports qui développent une offre intégrée, basée sur nos propres marques ainsi que des partenariats avec d'autres marque…",
       "url": "https://www.directemploi.com/candidatOffre/55594507?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi",
       "rome_code": "H1507",
@@ -2026,7 +2026,7 @@
       "location": "59840 Lompret",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 27,
+      "posted_days_ago": 28,
       "snippet": "Marre de passer tes journées devant un ordinateur ?Tu rêves d'une alternance où tes missions seront consacrées à développer une équipe et à relever des défis concrets sur le terrain ?Chez Decathlon, devenir apprenti-e Manager Logistique, c'est exactement ça !Ta mission est simple : assurer la disponibilité des produits Decathlon dans notre réseau logistique.Que ce soit en livrant les magasins ou…",
       "url": "https://www.directemploi.com/candidatOffre/55594502?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi",
       "rome_code": "N1301",
@@ -2194,7 +2194,7 @@
       "location": "16 RUE DES CHAMPS 59650 VILLENEUVE D ASCQ",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 54,
+      "posted_days_ago": 55,
       "snippet": "Assiste un ou plusieurs responsable(s) (cadre dirigeant, directeur,...) afin d'optimiser la gestion de leur activité (gestion de planning, organisation de déplacements, communication, préparation de réunions, accueil, ...). Organise et coordonne les informations internes et externes, parfois confidentielles, liées au fonctionnement de la structure. Peut prendre en charge le suivi complet de dossi…",
       "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a2a74881063452d8e11c5af/assistant-manager-h-f-en-contrat-d-apprentissage",
       "rome_code": "M1604",
@@ -2818,7 +2818,7 @@
       "location": "1113 RUE DES CARLIERS 59940 LE DOULIEU",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 58,
+      "posted_days_ago": 59,
       "snippet": "Le concepteur agencement façonne et optimise les espaces intérieurs pour les rendre fonctionnels et esthétiques. Conçoit des plans et des maquettes pour l'aménagement d'espaces intérieurs selon les besoins des clients Optimise l'utilisation de l'espace en tenant compte des contraintes techniques et esthétiques Sélectionne des matériaux et des produits adaptés aux projets d'agencement Coordonne av…",
       "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a252f41d42244de8c4596dd/menuisier-menuisière-d-agencement",
       "rome_code": "F1140",
@@ -3460,6 +3460,30 @@
       }
     },
     {
+      "id": "211VMRW",
+      "title": "Développeur Java Backend Senior (H/F)",
+      "company": "WEMANITY PARIS",
+      "location": "59 - LILLE",
+      "contract_type": "CDI",
+      "salary": "Annuel de 50000.0 Euros à 55000.0 Euros sur 12 mois",
+      "posted_days_ago": 6,
+      "snippet": "Mission principale Concevoir, développer, maintenir et faire évoluer des applications backend Java en environnement Agile. Participer aux projets Build et Run, développer des traitements batch et des APIs, assurer la qualité des livrables, contribuer à l'industrialisation des développements et au maintien en conditions opérationnelles des applications. Responsabilités principales Développement *…",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/211VMRW",
+      "rome_code": "M1855",
+      "semantic_score": 0.3456308841705322,
+      "llm_rank": null,
+      "llm_reason": null,
+      "score": 9.147570610046387,
+      "score_breakdown": {
+        "keywords": 0.0,
+        "contract": 0.0,
+        "rome": 0.0,
+        "location": 2.0,
+        "freshness": 3.0,
+        "semantic": 4.147570610046387
+      }
+    },
+    {
       "id": "lba_4972807",
       "title": "Assistant Leader de l'offre DPH en alternance F/H (H/F)",
       "company": null,
@@ -4090,7 +4114,7 @@
       "location": "59491 Villeneuve-d'Ascq",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 55,
+      "posted_days_ago": 56,
       "snippet": "Notre Security Governance team recherche un-e Junior Cybersecurity Governance Officer (f/m/d) en Alternance basé-e à Lille. PRÉSENTATION DE L'ÉQUIPE Rejoins une équipe d'expert-es passionné-es de cybersécurité au sein de Decathlon Digital ! Notre mission est de définir, piloter et faire vivre le cadre de sécurité globale pour l'ensemble des collaborateurs et partenaires à travers le monde. Au cœu…",
       "url": "https://www.directemploi.com/candidatOffre/55255463?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi",
       "rome_code": "M1803",
