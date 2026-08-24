@@ -21,7 +21,7 @@
         "location": "Lille"
       }
     ],
-    "scraped_at": "2026-08-24T05:43:23+00:00",
+    "scraped_at": "2026-08-24T07:09:46+00:00",
     "rerank_active": false,
     "semantic_active": true,
     "total": 170
@@ -3706,7 +3706,7 @@
       "location": "RUE DE SECLIN 59175 VENDEVILLE",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 38,
+      "posted_days_ago": 39,
       "snippet": "Le Serveur en restauration joue un rôle clé dans l'accueil et la réalisation d'un service à table de qualité. Accueille et installe les clients à leur table avec courtoisie Conseille les clients sur la carte, les différents plats et les boissons Prend les commandes et sert les clients avec efficacité Gère les encaissements et les transactions financières Veille à la propreté et à la bonne présent…",
       "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a5881638bfdaae34d697ad7/commis-commise-de-restaurant",
       "rome_code": "G1803",
