@@ -21,7 +21,7 @@
         "location": "Lille"
       }
     ],
-    "scraped_at": "2026-08-27T16:19:43+00:00",
+    "scraped_at": "2026-08-27T17:32:47+00:00",
     "rerank_active": false,
     "semantic_active": true,
     "total": 175
@@ -250,7 +250,7 @@
       "location": "59000 Lille",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 8,
+      "posted_days_ago": 9,
       "snippet": "Nous recherchons un employé polyvalent en restauration en apprentissage pour rejoindre notre équipe dans une petite pizzeria conviviale. Vous serez formé à diverses tâches et aurez l'opportunité d'acquérir une expérience complète dans le domaine de la restauration. Missions principales : Préparer les pâtes à pizza et les pâtes selon les recettes établies. Préparer les pizzas avec soin et précisio…",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/212QCCM",
       "rome_code": "G1603",
@@ -1522,7 +1522,7 @@
       "location": "59790 Ronchin",
       "contract_type": "Alternance",
       "salary": null,
-      "posted_days_ago": 2,
+      "posted_days_ago": 3,
       "snippet": "Tu préfères bouger plutôt que rester derrière un bureau ? Ce poste est pour toi ! Chez Altern'emploi Lille, tu participes au bon fonctionnement d'un magasin en assurant la mise en rayon et l'accueil des clients. Tu fais partie de l'équipe, toujours en action pour que les rayons soient clairs, remplis et agréables à parcourir. Voici les principales missions du poste : - Réceptionner et contrôler l…",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/212VWBY",
       "rome_code": "D1507",

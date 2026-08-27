@@ -9,10 +9,10 @@
         "location": "Lille"
       }
     ],
-    "scraped_at": "2026-08-27T16:19:25+00:00",
+    "scraped_at": "2026-08-27T17:32:30+00:00",
     "rerank_active": false,
     "semantic_active": true,
-    "total": 14
+    "total": 15
   },
   "offers": [
     {
@@ -109,6 +109,30 @@
         "location": 0.0,
         "freshness": 3.0,
         "semantic": 7.838418960571289
+      }
+    },
+    {
+      "id": "212ZZJJ",
+      "title": "Ingénieur / Ingénieure des travaux d'infrastructure et réseaux (H/F)",
+      "company": null,
+      "location": "62 - LENS",
+      "contract_type": "CDI",
+      "salary": null,
+      "posted_days_ago": 0,
+      "snippet": "La plateforme Proch'emploi de Lens-Hénin, recrute pour une entreprise locale, experte en intégration de technologies systèmes réseaux et cybersécurité, un(e) Ingénieur Réseaux et Télécoms (H/F) dans le cadre d'un CDI sur Amiens (déplacements à prévoir). Vous interviendrez en expertise et en support niveau 3 sur des infrastructures réseaux critiques. Les missions principales sont les suivantes : -…",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/212ZZJJ",
+      "rome_code": "I1104",
+      "semantic_score": 0.6438647508621216,
+      "llm_rank": null,
+      "llm_reason": null,
+      "score": 18.72637701034546,
+      "score_breakdown": {
+        "keywords": 0.0,
+        "contract": 8.0,
+        "rome": 0.0,
+        "location": 0.0,
+        "freshness": 3.0,
+        "semantic": 7.726377010345459
       }
     },
     {
